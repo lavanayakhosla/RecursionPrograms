@@ -1,10 +1,10 @@
 #include<iostream>
 using namespace std;
-void oneToN(int n){
+void NToOne(int n){
     if(n==0)return;
 
     cout<<n<<endl;
-    oneToN(n-1);
+    NToOne(n-1);
 }
 
 int main(){
@@ -13,7 +13,7 @@ int main(){
     cin>>n;
 
     
-    oneToN(n);
+    NToOne(n);
 
     return 0;
 }
